@@ -67,7 +67,7 @@ Las dos tablas se relacionan por el ID del tipo de servicio en una relación de 
 
 **GET /services:**
 
-Endpoint con el cual podemos obtener el listado de los tipos de Servicios (Nombre del servicio y descripción) 
+Endpoint con el cual podemos obtener el listado de los tipos de Servicios.
 
 **GET /services/{id}:**
 
