@@ -68,11 +68,58 @@ Las dos tablas se relacionan por el ID del tipo de servicio en una relación de 
 **GET /services:**
 
 Endpoint con el cual podemos obtener el listado de los tipos de Servicios.
+La ruta debera tener la siguiente estructura:
+[
+    {
+        "id": 1,
+        "name": "Desarrollos On-Cloud",
+        "packages": [
+            {
+                "id": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+                "price": 100,
+                typeOfServiceID: 1,
+                "deliverables": [
+                    {
+                        "id": 1,
+                        "name": "Include source code",
+                        "description": null,
+                        "included": false,
+                        "amount": 0,
+                        "enabled": true
+                    }
+                ]
+            }
+        ]   
+     }
+  ]
 
 **GET /services/{id}:**
 
 Endpoint que recibe el tipo de servicio y devuelve los paquetes con sus respectivos entregables. 
-
+La ruta debera tener la siguiente estructura: 
+    {
+        "id": 1,
+        "name": "Desarrollos On-Cloud",
+        "packages": [
+            {
+                "id": 1,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing eli",
+                "price": 100,
+                typeOfServiceID: 1,
+                "deliverables": [
+                    {
+                        "id": 1,
+                        "name": "Include source code",
+                        "description": null,
+                        "included": false,
+                        "amount": 0,
+                        "enabled": true
+                    }
+                ]
+            }
+        ]   
+     }
 
 **3) Testing:**
 Deberá tener Unit Test implementado con una cobertura del 80% mínimo. 
