@@ -69,6 +69,7 @@ Las dos tablas se relacionan por el ID del tipo de servicio en una relación de 
 
 Endpoint con el cual podemos obtener el listado de los tipos de Servicios.
 La ruta debera tener la siguiente estructura:
+```
 [
     {
         "id": 1,
@@ -93,11 +94,13 @@ La ruta debera tener la siguiente estructura:
         ]   
      }
   ]
+  ```
 
 **GET /services/{id}:**
 
 Endpoint que recibe el tipo de servicio y devuelve los paquetes con sus respectivos entregables. 
 La ruta debera tener la siguiente estructura: 
+```
     {
         "id": 1,
         "name": "Desarrollos On-Cloud",
@@ -120,7 +123,7 @@ La ruta debera tener la siguiente estructura:
             }
         ]   
      }
-
+```
 **3) Testing:**
 Deberá tener Unit Test implementado con una cobertura del 80% mínimo. 
 
