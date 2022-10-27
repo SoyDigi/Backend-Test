@@ -1,4 +1,4 @@
-# Challenge Backend - Python 🐍
+# Challenge Backend
 
 **Tu tarea:** 
 El desafío consiste en desarrollar una API para explorar los distintos servicios que ofrecen nuestros Freelancers y como están conformados cada uno de ellos. 
@@ -68,7 +68,7 @@ Las dos tablas se relacionan por el ID del tipo de servicio en una relación de 
 **GET /services:**
 
 Endpoint con el cual podemos obtener el listado de los tipos de Servicios.
-La ruta debera tener la siguiente estructura:
+La ruta deberá tener la siguiente estructura:
 ```
 [
     {
@@ -99,7 +99,7 @@ La ruta debera tener la siguiente estructura:
 **GET /services/{id}:**
 
 Endpoint que recibe el tipo de servicio y devuelve los paquetes con sus respectivos entregables. 
-La ruta debera tener la siguiente estructura: 
+La ruta deberá tener la siguiente estructura: 
 ```
     {
         "id": 1,
