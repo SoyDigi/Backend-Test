@@ -84,10 +84,6 @@ La ruta deberá tener la siguiente estructura:
                     {
                         "id": 1,
                         "name": "Include source code",
-                        "description": null,
-                        "included": false,
-                        "amount": 0,
-                        "enabled": true
                     }
                 ]
             }
@@ -114,10 +110,6 @@ La ruta deberá tener la siguiente estructura:
                     {
                         "id": 1,
                         "name": "Include source code",
-                        "description": null,
-                        "included": false,
-                        "amount": 0,
-                        "enabled": true
                     }
                 ]
             }
