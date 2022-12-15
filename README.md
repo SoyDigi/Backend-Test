@@ -124,4 +124,4 @@ Documentar los endpoints utilizando Postman o Swagger.
 
 **Al finalizar la prueba:**
 Deberás enviar la solución asociada a un repositorio de GitHub, el cual debe de ser publico, debes compartirlo con la persona que revisará tu solución (usuario: 
-laurawarjan) y por ultimo compartir el enlace de la misma con nosostros.
+juang77) y por ultimo compartir el enlace de la misma con nosostros.
